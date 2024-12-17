@@ -1,0 +1,65 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.db
+*.sqlite3
+*.log
+
+# Django
+*.log
+*.pot
+*.pyc
+*.pyo
+__pycache__/
+db.sqlite3
+
+# Static files
+/static/
+
+# Media files
+/media/
+
+# Virtualenv
+.venv/
+venv/
+ENV/
+env/
+# Pipenv
+Pipfile.lock
+
+# pytest
+.cache/
+
+# mypy
+.mypy_cache/
+
+# Django migrations
+*/migrations/*
+
+# Coverage reports
+.coverage
+*.coveragerc
+nosetests.xml
+coverage.xml
+*.hypothesis/
+
+# IDE files
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+
+# Python egg files
+.eggs/
+*.egg-info/
+
+
+# volume
+.pgdata/
